@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">igitrepo</string>
+    <string name="search">Search</string>
+    <string name="star">Star</string>
+    <string name="error_occured">Error occured.</string>
+    <string name="search_github_repo">Search github repo.</string>
+</resources>
