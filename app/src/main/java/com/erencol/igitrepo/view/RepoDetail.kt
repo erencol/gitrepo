@@ -55,8 +55,8 @@ class RepoDetail : AppCompatActivity() {
     fun fillValues(){
         gitRepo?.owner?.userAvatar?.let { binding.profileImage.loadImage(it) }
         binding.ownerNameTextview.text = gitRepo?.owner?.login
-        binding.starCountTextview.text = gitRepo?.repoStarCount.toString()
-        binding.openIssuesCountTextview.text = gitRepo?.openIssueCount.toString()
+        binding.starCountTextview.text = "Star count: "+gitRepo?.repoStarCount.toString()
+        binding.openIssuesCountTextview.text = "Open issues count: "+ gitRepo?.openIssueCount.toString()
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
